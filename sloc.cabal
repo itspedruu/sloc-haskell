@@ -1,0 +1,14 @@
+cabal-version: 2.4
+name: sloc
+version: 1.0.0
+synopsis: A program which counts the lines of code on your project.
+description: A program which counts the lines of code on your project.
+bug-reports: https://github.com/itspedruu/sloc-haskell
+license: MIT
+author: Pedro Pinto
+maintainer: pedropinto.01@hotmail.com
+
+executable sloc
+    main-is: main.hs
+    build-depends: base ^>=4.14.3.0, directory
+    default-language: Haskell2010
